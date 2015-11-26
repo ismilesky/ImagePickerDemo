@@ -1,9 +1,9 @@
 //
 //  ViewController.h
-//  ImagePickerDemo
+//  JKImagePicker
 //
-//  Created by VS on 15/11/26.
-//  Copyright © 2015年 VS. All rights reserved.
+//  Created by Jecky on 15/1/9.
+//  Copyright (c) 2015年 Jecky. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

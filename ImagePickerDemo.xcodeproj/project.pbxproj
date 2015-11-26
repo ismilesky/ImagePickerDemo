@@ -15,6 +15,24 @@
 		57C455691C06A0460040911F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C455671C06A0460040911F /* LaunchScreen.storyboard */; };
 		57C455741C06A0460040911F /* ImagePickerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C455731C06A0460040911F /* ImagePickerDemoTests.m */; };
 		57C4557F1C06A0460040911F /* ImagePickerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C4557E1C06A0460040911F /* ImagePickerDemoUITests.m */; };
+		57C455B11C0716E70040911F /* JKAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C455981C0716E70040911F /* JKAssets.m */; };
+		57C455B21C0716E70040911F /* JKAssetsCollectionFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C4559A1C0716E70040911F /* JKAssetsCollectionFooterView.m */; };
+		57C455B31C0716E70040911F /* JKAssetsGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C4559C1C0716E70040911F /* JKAssetsGroupCell.m */; };
+		57C455B41C0716E70040911F /* JKAssetsGroupsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C4559E1C0716E70040911F /* JKAssetsGroupsView.m */; };
+		57C455B51C0716E70040911F /* JKAssetsThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C455A01C0716E70040911F /* JKAssetsThumbnailView.m */; };
+		57C455B61C0716E70040911F /* JKAssetsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C455A21C0716E70040911F /* JKAssetsViewCell.m */; };
+		57C455B71C0716E70040911F /* JKImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C455A41C0716E70040911F /* JKImagePickerController.m */; };
+		57C455B81C0716E70040911F /* JKPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C455A61C0716E70040911F /* JKPhotoBrowser.m */; };
+		57C455B91C0716E70040911F /* JKPhotoBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C455A81C0716E70040911F /* JKPhotoBrowserCell.m */; };
+		57C455BA1C0716E70040911F /* JKPromptView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C455AA1C0716E70040911F /* JKPromptView.m */; };
+		57C455BB1C0716E70040911F /* JKUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C455AC1C0716E70040911F /* JKUtil.m */; };
+		57C455BC1C0716E70040911F /* PhotoAlbumManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C455AE1C0716E70040911F /* PhotoAlbumManager.m */; };
+		57C455BD1C0716E70040911F /* UIView+JKPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C455B01C0716E70040911F /* UIView+JKPicker.m */; };
+		57C455C61C0717C00040911F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C455BF1C0717C00040911F /* ViewController.m */; };
+		57C455C71C0717C00040911F /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C455C11C0717C00040911F /* PhotoCell.m */; };
+		57C455C81C0717C00040911F /* AddImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C455C31C0717C00040911F /* AddImageCell.m */; };
+		57C455C91C0717C00040911F /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 57C455C41C0717C00040911F /* close.png */; };
+		57C455CA1C0717C00040911F /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 57C455C51C0717C00040911F /* add.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +57,6 @@
 		57C4555A1C06A0460040911F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		57C4555C1C06A0460040911F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		57C4555D1C06A0460040911F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		57C4555F1C06A0460040911F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		57C455601C06A0460040911F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		57C455631C06A0460040911F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57C455651C06A0460040911F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57C455681C06A0460040911F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +67,40 @@
 		57C4557A1C06A0460040911F /* ImagePickerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagePickerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C4557E1C06A0460040911F /* ImagePickerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagePickerDemoUITests.m; sourceTree = "<group>"; };
 		57C455801C06A0460040911F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57C455971C0716E70040911F /* JKAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKAssets.h; sourceTree = "<group>"; };
+		57C455981C0716E70040911F /* JKAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKAssets.m; sourceTree = "<group>"; };
+		57C455991C0716E70040911F /* JKAssetsCollectionFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKAssetsCollectionFooterView.h; sourceTree = "<group>"; };
+		57C4559A1C0716E70040911F /* JKAssetsCollectionFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKAssetsCollectionFooterView.m; sourceTree = "<group>"; };
+		57C4559B1C0716E70040911F /* JKAssetsGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKAssetsGroupCell.h; sourceTree = "<group>"; };
+		57C4559C1C0716E70040911F /* JKAssetsGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKAssetsGroupCell.m; sourceTree = "<group>"; };
+		57C4559D1C0716E70040911F /* JKAssetsGroupsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKAssetsGroupsView.h; sourceTree = "<group>"; };
+		57C4559E1C0716E70040911F /* JKAssetsGroupsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKAssetsGroupsView.m; sourceTree = "<group>"; };
+		57C4559F1C0716E70040911F /* JKAssetsThumbnailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKAssetsThumbnailView.h; sourceTree = "<group>"; };
+		57C455A01C0716E70040911F /* JKAssetsThumbnailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKAssetsThumbnailView.m; sourceTree = "<group>"; };
+		57C455A11C0716E70040911F /* JKAssetsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKAssetsViewCell.h; sourceTree = "<group>"; };
+		57C455A21C0716E70040911F /* JKAssetsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKAssetsViewCell.m; sourceTree = "<group>"; };
+		57C455A31C0716E70040911F /* JKImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKImagePickerController.h; sourceTree = "<group>"; };
+		57C455A41C0716E70040911F /* JKImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKImagePickerController.m; sourceTree = "<group>"; };
+		57C455A51C0716E70040911F /* JKPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKPhotoBrowser.h; sourceTree = "<group>"; };
+		57C455A61C0716E70040911F /* JKPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKPhotoBrowser.m; sourceTree = "<group>"; };
+		57C455A71C0716E70040911F /* JKPhotoBrowserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKPhotoBrowserCell.h; sourceTree = "<group>"; };
+		57C455A81C0716E70040911F /* JKPhotoBrowserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKPhotoBrowserCell.m; sourceTree = "<group>"; };
+		57C455A91C0716E70040911F /* JKPromptView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKPromptView.h; sourceTree = "<group>"; };
+		57C455AA1C0716E70040911F /* JKPromptView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKPromptView.m; sourceTree = "<group>"; };
+		57C455AB1C0716E70040911F /* JKUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKUtil.h; sourceTree = "<group>"; };
+		57C455AC1C0716E70040911F /* JKUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKUtil.m; sourceTree = "<group>"; };
+		57C455AD1C0716E70040911F /* PhotoAlbumManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoAlbumManager.h; sourceTree = "<group>"; };
+		57C455AE1C0716E70040911F /* PhotoAlbumManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoAlbumManager.m; sourceTree = "<group>"; };
+		57C455AF1C0716E70040911F /* UIView+JKPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JKPicker.h"; sourceTree = "<group>"; };
+		57C455B01C0716E70040911F /* UIView+JKPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JKPicker.m"; sourceTree = "<group>"; };
+		57C455BE1C0717C00040911F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		57C455BF1C0717C00040911F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		57C455C01C0717C00040911F /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		57C455C11C0717C00040911F /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+		57C455C21C0717C00040911F /* AddImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddImageCell.h; sourceTree = "<group>"; };
+		57C455C31C0717C00040911F /* AddImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddImageCell.m; sourceTree = "<group>"; };
+		57C455C41C0717C00040911F /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		57C455C51C0717C00040911F /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +151,21 @@
 		57C455581C06A0460040911F /* ImagePickerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				57C455961C0716E70040911F /* ImagePicker */,
 				57C4555C1C06A0460040911F /* AppDelegate.h */,
 				57C4555D1C06A0460040911F /* AppDelegate.m */,
-				57C4555F1C06A0460040911F /* ViewController.h */,
-				57C455601C06A0460040911F /* ViewController.m */,
 				57C455621C06A0460040911F /* Main.storyboard */,
 				57C455651C06A0460040911F /* Assets.xcassets */,
 				57C455671C06A0460040911F /* LaunchScreen.storyboard */,
 				57C4556A1C06A0460040911F /* Info.plist */,
+				57C455BE1C0717C00040911F /* ViewController.h */,
+				57C455BF1C0717C00040911F /* ViewController.m */,
+				57C455C01C0717C00040911F /* PhotoCell.h */,
+				57C455C11C0717C00040911F /* PhotoCell.m */,
+				57C455C21C0717C00040911F /* AddImageCell.h */,
+				57C455C31C0717C00040911F /* AddImageCell.m */,
+				57C455C41C0717C00040911F /* close.png */,
+				57C455C51C0717C00040911F /* add.png */,
 				57C455591C06A0460040911F /* Supporting Files */,
 			);
 			path = ImagePickerDemo;
@@ -138,6 +195,39 @@
 				57C455801C06A0460040911F /* Info.plist */,
 			);
 			path = ImagePickerDemoUITests;
+			sourceTree = "<group>";
+		};
+		57C455961C0716E70040911F /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				57C455971C0716E70040911F /* JKAssets.h */,
+				57C455981C0716E70040911F /* JKAssets.m */,
+				57C455991C0716E70040911F /* JKAssetsCollectionFooterView.h */,
+				57C4559A1C0716E70040911F /* JKAssetsCollectionFooterView.m */,
+				57C4559B1C0716E70040911F /* JKAssetsGroupCell.h */,
+				57C4559C1C0716E70040911F /* JKAssetsGroupCell.m */,
+				57C4559D1C0716E70040911F /* JKAssetsGroupsView.h */,
+				57C4559E1C0716E70040911F /* JKAssetsGroupsView.m */,
+				57C4559F1C0716E70040911F /* JKAssetsThumbnailView.h */,
+				57C455A01C0716E70040911F /* JKAssetsThumbnailView.m */,
+				57C455A11C0716E70040911F /* JKAssetsViewCell.h */,
+				57C455A21C0716E70040911F /* JKAssetsViewCell.m */,
+				57C455A31C0716E70040911F /* JKImagePickerController.h */,
+				57C455A41C0716E70040911F /* JKImagePickerController.m */,
+				57C455A51C0716E70040911F /* JKPhotoBrowser.h */,
+				57C455A61C0716E70040911F /* JKPhotoBrowser.m */,
+				57C455A71C0716E70040911F /* JKPhotoBrowserCell.h */,
+				57C455A81C0716E70040911F /* JKPhotoBrowserCell.m */,
+				57C455A91C0716E70040911F /* JKPromptView.h */,
+				57C455AA1C0716E70040911F /* JKPromptView.m */,
+				57C455AB1C0716E70040911F /* JKUtil.h */,
+				57C455AC1C0716E70040911F /* JKUtil.m */,
+				57C455AD1C0716E70040911F /* PhotoAlbumManager.h */,
+				57C455AE1C0716E70040911F /* PhotoAlbumManager.m */,
+				57C455AF1C0716E70040911F /* UIView+JKPicker.h */,
+				57C455B01C0716E70040911F /* UIView+JKPicker.m */,
+			);
+			path = ImagePicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +335,8 @@
 			files = (
 				57C455691C06A0460040911F /* LaunchScreen.storyboard in Resources */,
 				57C455661C06A0460040911F /* Assets.xcassets in Resources */,
+				57C455C91C0717C00040911F /* close.png in Resources */,
+				57C455CA1C0717C00040911F /* add.png in Resources */,
 				57C455641C06A0460040911F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +362,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57C455611C06A0460040911F /* ViewController.m in Sources */,
+				57C455BC1C0716E70040911F /* PhotoAlbumManager.m in Sources */,
+				57C455B51C0716E70040911F /* JKAssetsThumbnailView.m in Sources */,
+				57C455BD1C0716E70040911F /* UIView+JKPicker.m in Sources */,
+				57C455B21C0716E70040911F /* JKAssetsCollectionFooterView.m in Sources */,
+				57C455B61C0716E70040911F /* JKAssetsViewCell.m in Sources */,
+				57C455C81C0717C00040911F /* AddImageCell.m in Sources */,
+				57C455BB1C0716E70040911F /* JKUtil.m in Sources */,
+				57C455B11C0716E70040911F /* JKAssets.m in Sources */,
+				57C455B81C0716E70040911F /* JKPhotoBrowser.m in Sources */,
+				57C455B91C0716E70040911F /* JKPhotoBrowserCell.m in Sources */,
+				57C455C71C0717C00040911F /* PhotoCell.m in Sources */,
+				57C455BA1C0716E70040911F /* JKPromptView.m in Sources */,
+				57C455C61C0717C00040911F /* ViewController.m in Sources */,
 				57C4555E1C06A0460040911F /* AppDelegate.m in Sources */,
 				57C4555B1C06A0460040911F /* main.m in Sources */,
+				57C455B41C0716E70040911F /* JKAssetsGroupsView.m in Sources */,
+				57C455B71C0716E70040911F /* JKImagePickerController.m in Sources */,
+				57C455B31C0716E70040911F /* JKAssetsGroupCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +521,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ImagePickerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fenghui.ImagePickerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +533,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ImagePickerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fenghui.ImagePickerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
